@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>NumJump</title>
+		<link href="css/index.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class=warp>
+			<div class=number>100</div>
+		</div>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script src="js/NumJump.js"></script>
+		<script type="text/javascript">
+			var config = {
+				st: 10,
+				ed: 1,
+				sp: -1,
+				tsp: 800,
+				ele: $('.number'),
+				isloop: true,
+				animateEnbale: true,
+				animateType: 'slide'
+			};
+			var nj = new NumJump(config);
+			nj.start();
+			setTimeout(function(){
+				nj.stop();
+			},2000);
+			setTimeout(function(){
+				nj.goOn();
+			},4000);
+		</script>
+	</body>
+
+</html>

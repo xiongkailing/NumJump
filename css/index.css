@@ -1,0 +1,3 @@
+html,body{margin:0;padding: 0;width: 100%;min-width: 640px;min-height: 480;}
+.warp{width:320px;height: 100px;background: #42A3DE;top:50%;left: 50%;margin-top: -50px;margin-left: -160px;position: absolute;overflow: hidden;text-align: center;font-size: 60px;padding: 20px 0;color: #fff;}
+.number{height: 100px;width: 320px;text-align: center;font-size: 60px;padding: 20px 0;color: #fff;}

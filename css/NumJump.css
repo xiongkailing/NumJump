@@ -1,0 +1,18 @@
+.fade {
+	-webkit-transition-property: opacity;
+	-moz-transition-property: opacity;
+	transition-property: opacity;
+	-webkit-transition-timing-function:ease-in-out;
+	-moz-transition-timing-function: ease-in-out;
+	transition-timing-function:ease-in-out;
+}
+
+.slide {
+	-webkit-transition-property: margin-top;
+	-moz-transition-property: margin-top;
+	transition-property: margin-top;
+	-webkit-transition-timing-function:ease-in-out;
+	-moz-transition-timing-function: ease-in-out;
+	transition-timing-function:ease-in-out;
+}
+/*todo:more animate*/
